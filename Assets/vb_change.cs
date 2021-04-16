@@ -1,32 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Vuforia;
+using UnityEngine.UI;
 
 public class vb_change : MonoBehaviour
 {
 
-    public GameObject vbBtnObj, dragon1, dragon2;   
- 
+    public GameObject dragon1, dragon2;   
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        vbBtnObj = GameObject.Find("colorButton");
-        vbBtnObj.GetComponent<VirtualButtonBehaviour>().RegisterOnButtonPressed(OnButtonPressed);
-        vbBtnObj.GetComponent<VirtualButtonBehaviour>().RegisterOnButtonReleased(OnButtonReleased);
-    }
+    public Button yourButton;
 
-    public void OnButtonPressed(VirtualButtonBehaviour vb)
-    {
+	void Start () {
+		Button btn = yourButton.GetComponent<Button>();
+		btn.onClick.AddListener(TaskOnClick);
+	}
+
+	void TaskOnClick(){
+		Debug.Log ("You have clicked the button!");
         VirtualButtonChange();
-        Debug.Log("Button pressed");
-    }
- 
-    public void OnButtonReleased(VirtualButtonBehaviour vb)
-    {
-        Debug.Log("Button released");
-    }
+	}
 
     void VirtualButtonChange()
     {
