@@ -21,5 +21,10 @@ Latios.jpeg![image](https://user-images.githubusercontent.com/12957553/115159127
 Latias:
 Latias.jpeg![image](https://user-images.githubusercontent.com/12957553/115159132-fa998800-a091-11eb-9e26-34d9f0c969f1.png)
 
+Video :
+
+https://user-images.githubusercontent.com/12957553/115159473-8b249800-a093-11eb-9f0f-89e65d778b6e.mov
+
+
 
 Enjoy 😉 
