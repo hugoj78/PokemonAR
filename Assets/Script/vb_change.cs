@@ -35,9 +35,4 @@ public class vb_change : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
